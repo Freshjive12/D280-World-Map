@@ -1,3 +1,4 @@
+//import statement from angular core
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,13 +6,19 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+//this will make out unique componenet
+//selector-> is the custumized html Element
+//templateUrl-> where selector gets its html to display(the file you want to display or Elements to display)
+//stylesUrls-> stylessheet used for the component
+
 // export class AppComponent {
-//   title = 'd280-map';
+  
 // names!: string ;
 
 // }
 
 export class AppComponent {
+  title = 'd280-map';
   name!: string;
   capital!: string;
   region!: string;
